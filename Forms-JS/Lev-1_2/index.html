@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms-JS-Lev-1_2</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        gap: 1rem;
+      }
+      label,
+      p {
+        font-size: 2rem;
+      }
+      input,
+      button {
+        padding-block: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <form onsubmit="return false">
+      <label for="jahre">Gib dein Geburtsjahr ein:</label>
+      <input type="number" value="number" placeholder="" />
+      <button onclick="alter()">Berechne</button>
+    </form>
+    <p></p>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

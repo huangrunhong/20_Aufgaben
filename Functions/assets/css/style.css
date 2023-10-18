@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+div > button {
+  margin-top: 10rem;
+  margin-inline: 2rem;
+  padding: 80px 80px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+div > button:hover,
+div > button:focus {
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+
+button:nth-of-type(1) {
+  background: linear-gradient(
+    to bottom left,
+    #4f0000 50%,
+    rgb(248, 142, 142) 50%
+  );
+}
+
+button:nth-of-type(2) {
+  background: linear-gradient(
+    to bottom left,
+    #001a4f 50%,
+    rgb(142, 165, 248) 50%
+  );
+}
+
+button:nth-of-type(3) {
+  background: linear-gradient(
+    to bottom left,
+    #00431a 50%,
+    rgb(142, 248, 183) 50%
+  );
+}
+
+button:nth-of-type(4) {
+  background: linear-gradient(
+    to bottom left,
+    #593e00 50%,
+    rgb(248, 216, 142) 50%
+  );
+}
